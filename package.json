@@ -9,6 +9,9 @@
     "type": "git",
     "url": "ssh://git@github.com/magloft/devkit.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "devDependencies": {
     "lerna": "^4.0.0"
   }
