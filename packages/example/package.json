@@ -23,5 +23,6 @@
     "@magloft/devkit-core": "^1.0.3",
     "@magloft/devkit-rollup": "^1.0.3",
     "@magloft/eslint-config": "^1.0.3"
-  }
+  },
+  "gitHead": "38fbe22bdb5ff6c15476f75d58df087f42a48ddb"
 }
