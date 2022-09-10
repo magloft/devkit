@@ -1,6 +1,6 @@
 {
   "name": "@magloft/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "MagLoft DevKit ESLint",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
@@ -8,6 +8,9 @@
     "type": "git",
     "url": "ssh://git@github.com/magloft/devkit.git",
     "directory": "packages/eslint"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   },
   "main": "index.js",
   "dependencies": {
@@ -18,5 +21,5 @@
     "eslint-plugin-import": "~2.26.0",
     "typescript": "^4.8.3"
   },
-  "gitHead": "5ae596ff6996febbf63685062b00983ab71d1bd5"
+  "gitHead": "d42aa39da63ed1a45529b16933b3c499060e2025"
 }
