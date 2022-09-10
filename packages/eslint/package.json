@@ -1,5 +1,5 @@
 {
-  "name": "@magloft/devkit-eslint",
+  "name": "@magloft/eslint-config",
   "version": "1.0.2",
   "description": "MagLoft DevKit ESLint",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
@@ -15,7 +15,8 @@
     "@typescript-eslint/parser": "^5.36.2",
     "eslint": "^8.23.0",
     "eslint-plugin-eslint-plugin": "^5.0.6",
-    "eslint-plugin-import": "~2.26.0"
+    "eslint-plugin-import": "~2.26.0",
+    "typescript": "^4.8.3"
   },
   "gitHead": "ed7a50e72d686d5cefba3a0a696bbeba188bf8dd"
 }

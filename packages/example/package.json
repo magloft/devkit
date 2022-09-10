@@ -1,0 +1,27 @@
+{
+  "name": "@magloft/devkit-example",
+  "version": "1.0.2",
+  "description": "MagLoft DevKit Example",
+  "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/magloft/devkit.git",
+    "directory": "packages/example"
+  },
+  "types": "build/cjs/index.d.ts",
+  "main": "build/cjs/index.js",
+  "module": "build/esm/index.js",
+  "scripts": {
+    "clean": "rimraf build",
+    "build": "rollup -c",
+    "watch": "yarn build --watch",
+    "prepack": "yarn clean && yarn build",
+    "lint": "eslint 'src/**/*.ts'"
+  },
+  "dependencies": {
+    "@magloft/devkit-core": "*",
+    "@magloft/eslint-config": "*",
+    "@magloft/devkit-rollup": "*"
+  }
+}

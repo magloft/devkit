@@ -1,7 +1,9 @@
 {
   "name": "@magloft/devkit",
   "private": true,
-  "workspaces": ["packages/*"],
+  "workspaces": [
+    "packages/*"
+  ],
   "description": "MagLoft DevKit",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
@@ -11,6 +13,11 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "clean": "lerna run build",
+    "build": "lerna run build",
+    "prepack": "lerna run clean && lerna run build"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
