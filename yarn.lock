@@ -798,6 +798,17 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
+"@magloft/devkit-eslint@*":
+  version "1.0.2"
+  resolved "https://npm.pkg.github.com/download/@magloft/devkit-eslint/1.0.2/ca6353d9e2b23faef44dc1a889e81605a7b2805b#ca6353d9e2b23faef44dc1a889e81605a7b2805b"
+  integrity sha512-9mSX6mv2ZWwDNh3Zhq4/4OfI1cE/Jn+XahH9s8NA2BYi/NVMnzlLgEghC4ORFTZC1MRiwBIEqig7MIuJpSysOw==
+  dependencies:
+    "@typescript-eslint/eslint-plugin" "^5.36.2"
+    "@typescript-eslint/parser" "^5.36.2"
+    eslint "^8.23.0"
+    eslint-plugin-eslint-plugin "^5.0.6"
+    eslint-plugin-import "~2.26.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
