@@ -1,16 +1,16 @@
-/* eslint-disable no-undef */
 module.exports = {
-  'parser': '@typescript-eslint/parser',
-  'plugins': ['eslint-plugin', '@typescript-eslint'],
-  'parserOptions': {
-    'sourceType': 'module',
-    'createDefaultProgram': true,
-    'ecmaFeatures': { 'ecmaVersion': 2017 },
-    'noWatch': true,
-    'project': 'node_modules/@magloft/devkit-core/tsconfig.json'
+  parser: '@typescript-eslint/parser',
+  plugins: ['eslint-plugin', '@typescript-eslint'],
+  env: { 'es6': true, 'node': true, 'browser': true },
+  parserOptions: {
+    sourceType: 'module',
+    createDefaultProgram: true,
+    ecmaFeatures: { 'ecmaVersion': 2017 },
+    noWatch: true,
+    project: 'node_modules/@magloft/devkit-core/tsconfig.json'
   },
-  'extends': ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
-  'rules': {
+  extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended'],
+  rules: {
     'prefer-const': 'error',
     'no-mixed-operators': 'off',
     'no-console': 'off',
