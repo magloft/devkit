@@ -1,5 +1,6 @@
 
 {
+  "ts-node": { "compilerOptions": { "module": "CommonJS" } },
   "compilerOptions": {
     "target": "ESNext",
     "module": "esnext",
