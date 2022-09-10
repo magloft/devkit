@@ -1,6 +1,6 @@
 {
   "name": "@magloft/devkit-rollup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MagLoft DevKit Rollup",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
@@ -10,7 +10,7 @@
     "directory": "packages/rollup"
   },
   "dependencies": {
-    "@magloft/devkit-core": "^1.0.1",
+    "@magloft/devkit-core": "^1.0.2",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "^13.3.0",
@@ -23,5 +23,5 @@
     "rollup-plugin-visualizer": "^5.8.0",
     "typescript": "^4.8.3"
   },
-  "gitHead": "ce08874834f87a7860f750ed2f9a68f03f8436cd"
+  "gitHead": "ed7a50e72d686d5cefba3a0a696bbeba188bf8dd"
 }
