@@ -1,0 +1,15 @@
+{
+  "name": "@magloft/devkit",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "description": "MagLoft DevKit",
+  "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/magloft/devkit.git"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
