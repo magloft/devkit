@@ -1,0 +1,27 @@
+{
+  "name": "@magloft/devkit-rollup",
+  "version": "1.0.0",
+  "description": "MagLoft DevKit Rollup",
+  "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/magloft/devkit.git",
+    "directory": "packages/rollup"
+  },
+  "dependencies": {
+    "@magloft/devkit-core": "*",
+    "@rollup/plugin-commonjs": "^22.0.2",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.4.0",
+    "postcss": "^8.0.0",
+    "rollup": "^2.78.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-visualizer": "^5.8.0",
+    "typescript": "^4.8.3"
+  },
+  "gitHead": "ce08874834f87a7860f750ed2f9a68f03f8436cd"
+}
