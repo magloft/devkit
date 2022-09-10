@@ -1,7 +1,9 @@
+
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ESNext",
     "module": "esnext",
+    "lib": ["ESNext", "DOM"],
     "sourceMap": true,
     "strict": true,
     "moduleResolution": "node",
@@ -9,6 +11,8 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "declaration": true
+    "declaration": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true
   }
 }
