@@ -77,6 +77,15 @@ module.exports = {
     'quotes': ['error', 'single'],
     'semi': 'off',
     'space-before-blocks': 'off',
-    'space-before-function-paren': 'off'
+    'space-before-function-paren': 'off',
+    'arrow-parens': ['error'],
+    'key-spacing': ['error', { 'beforeColon': false }],
+    'no-restricted-syntax': [
+      'error',
+      {
+        'selector': 'CallExpression[callee.object.name="console"][callee.property.name=/^(debug|log|time|timeEnd|trace)$/]',
+        'message': 'Unexpected property on console object was called'
+      }
+    ]
   }
 }
