@@ -5,6 +5,7 @@ import terser from '@rollup/plugin-terser'
 import typescript from '@rollup/plugin-typescript'
 import { Plugin, RollupOptions } from 'rollup'
 import external from 'rollup-plugin-peer-deps-external'
+import postcss from 'rollup-plugin-postcss'
 
 export { commonjs, external, json, resolve, terser, typescript }
 
@@ -18,7 +19,8 @@ export function rollup(input: string, output: string = 'build/index.js', plugins
       commonjs(),
       json(),
       typescript(),
-      terser()
+      terser(),
+      postcss({ inject: false, extract: true })
     ]
   }
 }
