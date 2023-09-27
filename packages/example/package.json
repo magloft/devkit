@@ -1,6 +1,6 @@
 {
   "name": "@magloft/devkit-example",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "MagLoft DevKit Example",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
@@ -23,9 +23,9 @@
     "lint": "eslint 'src/**/*.ts'"
   },
   "dependencies": {
-    "@magloft/devkit-core": "^1.2.1",
-    "@magloft/devkit-rollup": "^1.2.1",
-    "@magloft/eslint-config": "^1.2.1"
+    "@magloft/devkit-core": "^1.2.2",
+    "@magloft/devkit-rollup": "^1.2.2",
+    "@magloft/eslint-config": "^1.2.2"
   },
   "gitHead": "0676579e6e69214a2af5db590e39963a70a9a197"
 }
