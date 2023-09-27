@@ -12,5 +12,9 @@
     "declaration": true,
     "experimentalDecorators": true,
     "resolveJsonModule": true
+  },
+  "ts-node": {
+    "esm": true,
+    "moduleTypes": { "**/*": "cjs" }
   }
 }
