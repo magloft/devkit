@@ -1,6 +1,6 @@
 {
   "name": "@magloft/devkit-rollup",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "MagLoft DevKit Rollup",
   "author": "Tobias Strebitzer <tobias.strebitzer@magloft.com>",
   "license": "MIT",
